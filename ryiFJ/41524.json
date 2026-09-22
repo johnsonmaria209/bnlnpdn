@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：实战项目：数据导出Excel百万级大数据导出方案
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://wap.lximca.asia/blog/3001347.sHtMl
+
+原标题：golang mysql 批量导入数据实操
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://wap.lximca.asia/blog/1501478.sHtMl
+
+原标题：golang k8s 滚动更新回滚策略
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://wap.lximca.asia/blog/3040813.sHtMl
+
+原标题：golang redis 持久化 RDB AOF 对比
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://wap.lximca.asia/blog/0616917.sHtMl
+
+原标题：安全组端口开放网络访问
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://wap.lximca.asia/blog/3938149.sHtMl
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://wap.lximca.asia/blog/1583625.sHtMl
+
+原标题：入门实践：本地简单代理服务搭建
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://wap.lximca.asia/blog/9370325.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://wap.lximca.asia/blog/2713694.sHtMl
+
+原标题：golang aes 对称加密解密示例
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://wap.lximca.asia/blog/6529101.sHtMl
+
+原标题：golang k8s liveness readiness 探针
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.lximca.asia/blog/9039135.sHtMl
+
+原标题：分布式任务调度集群原型开发
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://wap.lximca.asia/blog/5889921.sHtMl
+
+原标题：golang 系统设计埋点数据上报方案
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://wap.lximca.asia/blog/1064557.sHtMl
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://wap.lximca.asia/blog/1819291.sHtMl
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.lximca.asia/blog/9717030.sHtMl
+
+原标题：开源项目本地运行排错完整清单
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://wap.lximca.asia/blog/1827170.sHtMl
+
+原标题：服务器时钟同步任务错乱修复
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://wap.lximca.asia/blog/7372514.sHtMl
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://wap.lximca.asia/blog/5368483.sHtMl
+
+原标题：golang docker 部署 es 本地开发
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://wap.lximca.asia/blog/2934031.sHtMl
+
+原标题：react hooks 常见陷阱避坑指南
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://wap.lximca.asia/blog/3030392.sHtMl
+
+原标题：内网测试服务搭建团队调试
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://wap.lximca.asia/blog/4379585.sHtMl
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://wap.lximca.asia/blog/0557058.sHtMl
+
+原标题：实践：数据库慢查询分析与索引优化实战演练
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://wap.lximca.asia/blog/8279258.sHtMl
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://wap.lximca.asia/blog/1824141.sHtMl
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://wap.lximca.asia/blog/2635142.sHtMl
+
+原标题：golang 系统设计缓存 key 淘汰雪崩防护思路
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://wap.lximca.asia/blog/4151436.sHtMl
+
+原标题：入门实战：搭建简易静态网页项目
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://wap.lximca.asia/blog/5272514.sHtMl
+
+原标题：webpack chunk 分包策略详解
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.lximca.asia/blog/7189152.sHtMl
+
+原标题：Practice：模拟缓存雪崩缓存击穿验证防护策略
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://wap.lximca.asia/blog/2857470.sHtMl
+
+原标题：效率笔记：Makefile项目构建脚本编写实践
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://wap.lximca.asia/blog/6262503.sHtMl
+
+原标题：golang http client 连接池调优
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://wap.lximca.asia/blog/2949281.sHtMl
+
+原标题：图片上传预览格式大小处理
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://wap.lximca.asia/blog/6585785.sHtMl
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://wap.lximca.asia/blog/5588788.sHtMl
+
+原标题：Practice：实现多级缓存本地缓存+Redis实践
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://wap.lximca.asia/blog/5935870.sHtMl
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://wap.lximca.asia/blog/1824958.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://wap.lximca.asia/blog/6080585.sHtMl
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://wap.lximca.asia/blog/3061292.sHtMl
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://wap.lximca.asia/blog/2151282.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://wap.lximca.asia/blog/2040281.sHtMl
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.lximca.asia/blog/5261280.sHtMl
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://wap.lximca.asia/blog/9695706.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.lximca.asia/blog/6521897.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://wap.lximca.asia/blog/1162463.sHtMl
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://wap.lximca.asia/blog/3372527.sHtMl
+
+原标题：css 动画性能优化 GPU 加速
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://wap.lximca.asia/blog/2950472.sHtMl
+
+原标题：网关集成鉴权限流日志一体化
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://wap.lximca.asia/blog/6038158.sHtMl
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://wap.lximca.asia/blog/2939291.sHtMl
+
+原标题：架构笔记：缓存雪崩缓存击穿架构防护方案
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://wap.lximca.asia/blog/8505960.sHtMl
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://wap.lximca.asia/blog/0824140.sHtMl
+
+原标题：Git 混乱提交历史清理方法
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://wap.lximca.asia/blog/1546369.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力梳理
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://wap.lximca.asia/blog/9202815.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://wap.lximca.asia/blog/6048148.sHtMl
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://wap.lximca.asia/blog/5049154.sHtMl
+
+原标题：golang 系统设计内部服务 mock 集成测试方案
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://wap.lximca.asia/blog/1837170.sHtMl
+
+原标题：前端国际化多语言方案落地
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：http://wap.lximca.asia/blog/3150512.sHtMl
+
+原标题：复盘总结：数据库迁移升级风险评估清单
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://wap.lximca.asia/blog/9379146.sHtMl
+
+原标题：数值类型溢出错乱问题修复
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://wap.lximca.asia/blog/9811246.sHtMl
+
+原标题：实践：数据库慢查询分析与索引优化实战演练
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://wap.lximca.asia/blog/6749691.sHtMl
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://wap.lximca.asia/blog/9612838.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://wap.lximca.asia/blog/5969571.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://wap.lximca.asia/blog/7612425.sHtMl
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.lximca.asia/blog/5467680.sHtMl
+
+原标题：Shell 脚本自动化命令编写
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://wap.lximca.asia/blog/7568148.sHtMl
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：http://wap.lximca.asia/blog/1828071.sHtMl
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://wap.lximca.asia/blog/7380694.sHtMl
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.lximca.asia/blog/7049703.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://wap.lximca.asia/blog/6372515.sHtMl
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：http://wap.lximca.asia/blog/5272627.sHtMl
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://wap.lximca.asia/blog/4159585.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://wap.lximca.asia/blog/9634894.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://wap.lximca.asia/blog/2036260.sHtMl
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://wap.lximca.asia/blog/2938482.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://wap.lximca.asia/blog/9606859.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.lximca.asia/blog/2927019.sHtMl
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://wap.lximca.asia/blog/3073485.sHtMl
+
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://wap.lximca.asia/blog/0716982.sHtMl
+
+原标题：golang redis stream 消息队列实践
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://wap.lximca.asia/blog/8594737.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://wap.lximca.asia/blog/3038252.sHtMl
+
+原标题：热更新开发环境配置教程
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://wap.lximca.asia/blog/0373515.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://wap.lximca.asia/blog/9606988.sHtMl
+
+原标题：主干开发团队代码合并策略
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://wap.lximca.asia/blog/0302516.sHtMl
+
+三、实战开发｜Practice
+原标题：golang mysql 联合索引最左匹配
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://wap.lximca.asia/blog/1828153.sHtMl
+
+原标题：从零学习简单分页逻辑实现思路
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.lximca.asia/blog/4158472.sHtMl
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://wap.lximca.asia/blog/9605838.sHtMl
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://wap.lximca.asia/blog/3152326.sHtMl
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://wap.lximca.asia/blog/3047252.sHtMl
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://wap.lximca.asia/blog/3156135.sHtMl
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.lximca.asia/blog/3017958.sHtMl
+
+原标题：golang 分布式锁防死锁处理
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://wap.lximca.asia/blog/1839170.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://wap.lximca.asia/blog/0617818.sHtMl
+
+原标题：golang 系统设计分布式配置中心思路
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://wap.lximca.asia/blog/2636146.sHtMl
+
+原标题：golang 系统设计日志规范结构化日志落地
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://wap.lximca.asia/blog/2269484.sHtMl
+
+原标题：golang gin 框架接口开发实战
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://wap.lximca.asia/blog/3041403.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://wap.lximca.asia/blog/8526051.sHtMl
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://wap.lximca.asia/blog/8596846.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://wap.lximca.asia/blog/1596958.sHtMl
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://wap.lximca.asia/blog/3058362.sHtMl
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.lximca.asia/blog/5260584.sHtMl
+
+原标题：上传接口跨域配置特殊适配
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.lximca.asia/blog/0603803.sHtMl
+
+原标题：nodejs 内存溢出问题排查修复
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://wap.lximca.asia/blog/3040292.sHtMl
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://wap.lximca.asia/blog/0740270.sHtMl
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://wap.lximca.asia/blog/6992706.sHtMl
+
+原标题：golang prometheus counter gauge 使用
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.lximca.asia/blog/1936140.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.lximca.asia/blog/2647258.sHtMl
+
+原标题：线上故障：慢查询拖垮整个数据库服务
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.lximca.asia/blog/0715039.sHtMl
+
+原标题：容器软链接文件权限修复
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://wap.lximca.asia/blog/6484735.sHtMl
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://wap.lximca.asia/blog/1828469.sHtMl
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://wap.lximca.asia/blog/1814928.sHtMl
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://wap.lximca.asia/blog/8594635.sHtMl
+
+原标题：零基础理解模块化与组件化基础思想
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://wap.lximca.asia/blog/8202837.sHtMl
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://wap.lximca.asia/blog/7481416.sHtMl
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://wap.lximca.asia/blog/5978471.sHtMl
+
+原标题：Issue：连接池参数不合理，大量连接被耗尽
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.lximca.asia/blog/5373608.sHtMl
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://wap.lximca.asia/blog/7501816.sHtMl
+
+原标题：golang mysql 事务回滚异常处理
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://wap.lximca.asia/blog/1595148.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://wap.lximca.asia/blog/1826471.sHtMl
+
+原标题：入门实战：搭建简易静态网页项目
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://wap.lximca.asia/blog/0727041.sHtMl
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://wap.lximca.asia/blog/1838482.sHtMl
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://wap.lximca.asia/blog/7717929.sHtMl
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://wap.lximca.asia/blog/9603926.sHtMl
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://wap.lximca.asia/blog/0724360.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 工具函数库封装思路
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://wap.lximca.asia/blog/3059242.sHtMl
+
+原标题：golang 系统设计海量数据分页查询
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://wap.lximca.asia/blog/0423050.sHtMl
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://wap.lximca.asia/blog/2157371.sHtMl
+
+原标题：golang github actions 完整工作流示例
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://wap.lximca.asia/blog/6482575.sHtMl
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://wap.lximca.asia/blog/7483738.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://wap.lximca.asia/blog/2049160.sHtMl
+
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.lximca.asia/blog/6372515.sHtMl
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.lximca.asia/blog/3004039.sHtMl
+
+原标题：新手指南：如何读懂开源项目报错日志
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://wap.lximca.asia/blog/8594926.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://wap.lximca.asia/blog/5291704.sHtMl
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://wap.lximca.asia/blog/3048073.sHtMl
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://wap.lximca.asia/blog/4261693.sHtMl
+
+原标题：快速入门YAML配置文件语法与示例
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://wap.lximca.asia/blog/4384627.sHtMl
+
+原标题：API 接口调试与异常处理实战
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://wap.lximca.asia/blog/3040474.sHtMl
+
+原标题：golang 系统设计错误码体系完整设计
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://wap.lximca.asia/blog/3757915.sHtMl
+
+原标题：浏览器本地存储安全使用技巧
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://wap.lximca.asia/blog/5271704.sHtMl
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://wap.lximca.asia/blog/1826258.sHtMl
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://wap.lximca.asia/blog/0749361.sHtMl
+
+?
